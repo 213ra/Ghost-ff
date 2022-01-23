@@ -1,0 +1,216 @@
+[debug] [2022-01-23T13:51:11.050Z] ----------------------------------------------------------------------
+[debug] [2022-01-23T13:51:11.062Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\alfad\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2022-01-23T13:51:11.066Z] CLI Version:   10.1.2
+[debug] [2022-01-23T13:51:11.067Z] Platform:      win32
+[debug] [2022-01-23T13:51:11.067Z] Node Version:  v16.13.2
+[debug] [2022-01-23T13:51:11.075Z] Time:          Sun Jan 23 2022 14:51:11 GMT+0100 (heure normale d’Europe centrale)
+[debug] [2022-01-23T13:51:11.077Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-01-23T13:51:11.129Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-01-23T13:51:11.131Z] > authorizing via signed-in user (moktar.racim2@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  D:\Ghost FF site
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2022-01-23T13:51:38.122Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=100
+[debug] [2022-01-23T13:51:38.735Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects 200
+[debug] [2022-01-23T13:51:38.736Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects [omitted]
+[info] i  Using project devision-91a82 (devision) 
+[info] 
+=== Hosting Setup
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
+[info] +  Wrote public/404.html 
+[debug] [2022-01-23T13:51:55.893Z] >>> [apiv2][query] GET https://www.gstatic.com/firebasejs/releases.json [none]
+[debug] [2022-01-23T13:51:56.048Z] <<< [apiv2][status] GET https://www.gstatic.com/firebasejs/releases.json 200
+[debug] [2022-01-23T13:51:56.049Z] <<< [apiv2][body] GET https://www.gstatic.com/firebasejs/releases.json {"current":{"version":"9.6.4","browserURL":"https://www.gstatic.com/firebasejs/9.6.4/firebase.js","packageURL":"https://www.gstatic.com/firebasejs/9.6.4/firebase.tgz"},"live":{"version":"9.6","browserURL":"https://www.gstatic.com/firebasejs/live/9.6/firebase.js","packageURL":"https://www.gstatic.com/firebasejs/live/9.6/firebase.tgz"},"components":{"analytics":"https://www.gstatic.com/firebasejs/9.6.4/firebase-analytics.js","app":"https://www.gstatic.com/firebasejs/9.6.4/firebase-app.js","app-check":"https://www.gstatic.com/firebasejs/9.6.4/firebase-app-check.js","auth":"https://www.gstatic.com/firebasejs/9.6.4/firebase-auth.js","auth/cordova":"https://www.gstatic.com/firebasejs/9.6.4/firebase-auth/cordova.js","auth/react-native":"https://www.gstatic.com/firebasejs/9.6.4/firebase-auth/react-native.js","functions":"https://www.gstatic.com/firebasejs/9.6.4/firebase-functions.js","firestore":"https://www.gstatic.com/firebasejs/9.6.4/firebase-firestore.js","firestore/lite":"https://www.gstatic.com/firebasejs/9.6.4/firebase-firestore/lite.js","storage":"https://www.gstatic.com/firebasejs/9.6.4/firebase-storage.js","performance":"https://www.gstatic.com/firebasejs/9.6.4/firebase-performance.js","remote-config":"https://www.gstatic.com/firebasejs/9.6.4/firebase-remote-config.js","messaging":"https://www.gstatic.com/firebasejs/9.6.4/firebase-messaging.js","messaging/sw":"https://www.gstatic.com/firebasejs/9.6.4/firebase-messaging/sw.js","database":"https://www.gstatic.com/firebasejs/9.6.4/firebase-database.js","firestore.memory":"https://www.gstatic.com/firebasejs/9.6.4/firebase-firestore.memory.js"}}
+[info] i  Skipping write of public/index.html 
+[info] 
+[info] i  Detected a .git folder at D:\Ghost FF site 
+[info] i  Authorizing with GitHub to upload your service account to a GitHub repository's secrets store. 
+[info] 
+[info] Visit this URL on this device to log in:
+[info] https://github.com/login/oauth/authorize?client_id=89cf50f02ac6aaed3484&state=816672956&redirect_uri=http%3A%2F%2Flocalhost%3A9005&scope=read%3Auser%20repo%20public_repo
+[info] 
+[info] Waiting for authentication...
+[debug] [2022-01-23T13:52:16.775Z] >>> HTTP REQUEST POST https://github.com/login/oauth/access_token  
+ {"client_id":"89cf50f02ac6aaed3484","client_secret":"3330d14abc895d9a74d5f17cd7a00711fa2c5bf0","code":"c23fbbb7ad06c702e764","redirect_uri":"http://localhost:9005","state":"816672956"}
+[debug] [2022-01-23T13:52:17.312Z] <<< HTTP RESPONSE 200 {"server":"GitHub.com","date":"Sun, 23 Jan 2022 13:52:16 GMT","content-type":"application/json; charset=utf-8","transfer-encoding":"chunked","vary":"X-PJAX, X-PJAX-Container, Accept-Encoding, Accept, X-Requested-With","permissions-policy":"interest-cohort=()","etag":"W/\"4ec3fa98cbbf9e6d5b3c86fd6773cead\"","cache-control":"max-age=0, private, must-revalidate","strict-transport-security":"max-age=31536000; includeSubdomains; preload","x-frame-options":"deny","x-content-type-options":"nosniff","x-xss-protection":"0","referrer-policy":"origin-when-cross-origin, strict-origin-when-cross-origin","expect-ct":"max-age=2592000, report-uri=\"https://api.github.com/_private/browser/errors\"","content-security-policy":"default-src 'none'; base-uri 'self'; block-all-mixed-content; child-src github.com/assets-cdn/worker/ gist.github.com/assets-cdn/worker/; connect-src 'self' uploads.github.com objects-origin.githubusercontent.com www.githubstatus.com collector.githubapp.com api.github.com github-cloud.s3.amazonaws.com github-production-repository-file-5c1aeb.s3.amazonaws.com github-production-upload-manifest-file-7fdce7.s3.amazonaws.com github-production-user-asset-6210df.s3.amazonaws.com cdn.optimizely.com logx.optimizely.com/v1/events translator.github.com wss://alive.github.com; font-src github.githubassets.com; form-action 'self' github.com gist.github.com objects-origin.githubusercontent.com; frame-ancestors 'none'; frame-src render.githubusercontent.com viewscreen.githubusercontent.com notebooks.githubusercontent.com; img-src 'self' data: github.githubassets.com identicons.github.com collector.githubapp.com github-cloud.s3.amazonaws.com secured-user-images.githubusercontent.com/ *.githubusercontent.com; manifest-src 'self'; media-src github.com user-images.githubusercontent.com/; script-src github.githubassets.com; style-src 'unsafe-inline' github.githubassets.com; worker-src github.com/assets-cdn/worker/ gist.github.com/assets-cdn/worker/","x-github-request-id":"D272:12C20:336A9BC:35D4A4F:61ED5D90"}
+[debug] [2022-01-23T13:52:17.339Z] >>> [apiv2][query] GET https://api.github.com/user [none]
+[debug] [2022-01-23T13:52:17.767Z] <<< [apiv2][status] GET https://api.github.com/user 200
+[debug] [2022-01-23T13:52:17.768Z] <<< [apiv2][body] GET https://api.github.com/user {"login":"213ra","id":96548377,"node_id":"U_kgDOBcE2GQ","avatar_url":"https://avatars.githubusercontent.com/u/96548377?v=4","gravatar_id":"","url":"https://api.github.com/users/213ra","html_url":"https://github.com/213ra","followers_url":"https://api.github.com/users/213ra/followers","following_url":"https://api.github.com/users/213ra/following{/other_user}","gists_url":"https://api.github.com/users/213ra/gists{/gist_id}","starred_url":"https://api.github.com/users/213ra/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/213ra/subscriptions","organizations_url":"https://api.github.com/users/213ra/orgs","repos_url":"https://api.github.com/users/213ra/repos","events_url":"https://api.github.com/users/213ra/events{/privacy}","received_events_url":"https://api.github.com/users/213ra/received_events","type":"User","site_admin":false,"name":null,"company":null,"blog":"","location":null,"email":null,"hireable":null,"bio":null,"twitter_username":null,"public_repos":9,"public_gists":0,"followers":0,"following":0,"created_at":"2021-12-22T20:05:57Z","updated_at":"2022-01-16T19:02:48Z","private_gists":0,"total_private_repos":1,"owned_private_repos":1,"disk_usage":1190,"collaborators":0,"two_factor_authentication":false,"plan":{"name":"free","space":976562499,"collaborators":0,"private_repos":10000}}
+[info] 
+[info] +  Success! Logged into GitHub as 213ra 
+[info] 
+[debug] [2022-01-23T13:52:44.614Z] >>> [apiv2][query] GET https://api.github.com/repos/repository/actions/secrets/public-key type=owner
+[debug] [2022-01-23T13:52:44.925Z] <<< [apiv2][status] GET https://api.github.com/repos/repository/actions/secrets/public-key 404
+[debug] [2022-01-23T13:52:44.926Z] <<< [apiv2][body] GET https://api.github.com/repos/repository/actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
+[debug] [2022-01-23T13:52:50.002Z] >>> [apiv2][query] GET https://api.github.com/repos/user/actions/secrets/public-key type=owner
+[debug] [2022-01-23T13:52:50.240Z] <<< [apiv2][status] GET https://api.github.com/repos/user/actions/secrets/public-key 404
+[debug] [2022-01-23T13:52:50.241Z] <<< [apiv2][body] GET https://api.github.com/repos/user/actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
+[debug] [2022-01-23T13:52:54.027Z] >>> [apiv2][query] GET https://api.github.com/repos/user/actions/secrets/public-key type=owner
+[debug] [2022-01-23T13:52:54.223Z] >>> [apiv2][query] GET https://api.github.com/repos/divisionalfa/Ghost-ff/actions/secrets/public-key type=owner
+[debug] [2022-01-23T13:52:54.254Z] <<< [apiv2][status] GET https://api.github.com/repos/user/actions/secrets/public-key 404
+[debug] [2022-01-23T13:52:54.256Z] <<< [apiv2][body] GET https://api.github.com/repos/user/actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
+[debug] [2022-01-23T13:52:54.393Z] >>> [apiv2][query] GET https://api.github.com/repos/user/actions/secrets/public-key type=owner
+[debug] [2022-01-23T13:52:54.478Z] <<< [apiv2][status] GET https://api.github.com/repos/divisionalfa/Ghost-ff/actions/secrets/public-key 403
+[debug] [2022-01-23T13:52:54.479Z] <<< [apiv2][body] GET https://api.github.com/repos/divisionalfa/Ghost-ff/actions/secrets/public-key {"message":"Must have admin rights to Repository.","documentation_url":"https://docs.github.com/rest/reference/actions#get-a-repository-public-key"}
+[info] 
+[info] 
+[error] !  The provided authorization cannot be used with this repository. If this repository is in an organization, did you remember to grant access? 
+[info] 
+[info] i  Action required: Visit this URL to ensure access has been granted to the appropriate organization(s) for the Firebase CLI GitHub OAuth App: 
+[info] https://github.com/settings/connections/applications/89cf50f02ac6aaed3484
+[info] 
+[debug] [2022-01-23T13:52:54.614Z] <<< [apiv2][status] GET https://api.github.com/repos/user/actions/secrets/public-key 404
+[debug] [2022-01-23T13:52:54.614Z] <<< [apiv2][body] GET https://api.github.com/repos/user/actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
+[debug] [2022-01-23T13:53:02.458Z] >>> [apiv2][query] GET https://api.github.com/repos/divisionalfa/Ghost-ff/actions/secrets/public-key type=owner
+[debug] [2022-01-23T13:53:02.763Z] <<< [apiv2][status] GET https://api.github.com/repos/divisionalfa/Ghost-ff/actions/secrets/public-key 403
+[debug] [2022-01-23T13:53:02.765Z] <<< [apiv2][body] GET https://api.github.com/repos/divisionalfa/Ghost-ff/actions/secrets/public-key {"message":"Must have admin rights to Repository.","documentation_url":"https://docs.github.com/rest/reference/actions#get-a-repository-public-key"}
+[info] 
+[info] 
+[error] !  The provided authorization cannot be used with this repository. If this repository is in an organization, did you remember to grant access? 
+[info] 
+[info] i  Action required: Visit this URL to ensure access has been granted to the appropriate organization(s) for the Firebase CLI GitHub OAuth App: 
+[info] https://github.com/settings/connections/applications/89cf50f02ac6aaed3484
+[info] 
+[debug] [2022-01-23T13:53:05.290Z] >>> [apiv2][query] GET https://api.github.com/repos/divisionalfa/Ghost-ff/actions/secrets/public-key type=owner
+[debug] [2022-01-23T13:53:05.563Z] <<< [apiv2][status] GET https://api.github.com/repos/divisionalfa/Ghost-ff/actions/secrets/public-key 403
+[debug] [2022-01-23T13:53:05.564Z] <<< [apiv2][body] GET https://api.github.com/repos/divisionalfa/Ghost-ff/actions/secrets/public-key {"message":"Must have admin rights to Repository.","documentation_url":"https://docs.github.com/rest/reference/actions#get-a-repository-public-key"}
+[info] 
+[info] 
+[error] !  The provided authorization cannot be used with this repository. If this repository is in an organization, did you remember to grant access? 
+[info] 
+[info] i  Action required: Visit this URL to ensure access has been granted to the appropriate organization(s) for the Firebase CLI GitHub OAuth App: 
+[info] https://github.com/settings/connections/applications/89cf50f02ac6aaed3484
+[info] 
+[debug] [2022-01-23T13:53:27.870Z] >>> [apiv2][query] GET https://api.github.com/repos/repository/actions/secrets/public-key type=owner
+[debug] [2022-01-23T13:53:28.119Z] <<< [apiv2][status] GET https://api.github.com/repos/repository/actions/secrets/public-key 404
+[debug] [2022-01-23T13:53:28.120Z] <<< [apiv2][body] GET https://api.github.com/repos/repository/actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
+[debug] [2022-01-23T13:53:32.579Z] >>> [apiv2][query] GET https://api.github.com/repos/repository/actions/secrets/public-key type=owner
+[debug] [2022-01-23T13:53:32.808Z] <<< [apiv2][status] GET https://api.github.com/repos/repository/actions/secrets/public-key 404
+[debug] [2022-01-23T13:53:32.809Z] <<< [apiv2][body] GET https://api.github.com/repos/repository/actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
+[debug] [2022-01-23T13:53:32.877Z] >>> [apiv2][query] GET https://api.github.com/repos/repository/actions/secrets/public-key type=owner
+[debug] [2022-01-23T13:53:33.113Z] <<< [apiv2][status] GET https://api.github.com/repos/repository/actions/secrets/public-key 404
+[debug] [2022-01-23T13:53:33.114Z] <<< [apiv2][body] GET https://api.github.com/repos/repository/actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
+[debug] [2022-01-23T13:53:33.126Z] >>> [apiv2][query] GET https://api.github.com/repos/repository/actions/secrets/public-key type=owner
+[debug] [2022-01-23T13:53:33.301Z] >>> [apiv2][query] GET https://api.github.com/repos/divisionalfa/Ghost-ff/actions/secrets/public-key type=owner
+[debug] [2022-01-23T13:53:33.358Z] <<< [apiv2][status] GET https://api.github.com/repos/repository/actions/secrets/public-key 404
+[debug] [2022-01-23T13:53:33.359Z] <<< [apiv2][body] GET https://api.github.com/repos/repository/actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
+[debug] [2022-01-23T13:53:33.441Z] >>> [apiv2][query] GET https://api.github.com/repos/repository/actions/secrets/public-key type=owner
+[debug] [2022-01-23T13:53:33.542Z] <<< [apiv2][status] GET https://api.github.com/repos/divisionalfa/Ghost-ff/actions/secrets/public-key 403
+[debug] [2022-01-23T13:53:33.544Z] <<< [apiv2][body] GET https://api.github.com/repos/divisionalfa/Ghost-ff/actions/secrets/public-key {"message":"Must have admin rights to Repository.","documentation_url":"https://docs.github.com/rest/reference/actions#get-a-repository-public-key"}
+[info] 
+[info] 
+[error] !  The provided authorization cannot be used with this repository. If this repository is in an organization, did you remember to grant access? 
+[info] 
+[info] i  Action required: Visit this URL to ensure access has been granted to the appropriate organization(s) for the Firebase CLI GitHub OAuth App: 
+[info] https://github.com/settings/connections/applications/89cf50f02ac6aaed3484
+[info] 
+[debug] [2022-01-23T13:53:33.596Z] >>> [apiv2][query] GET https://api.github.com/repos/divisionalfa/Ghost-ff/actions/secrets/public-key type=owner
+[debug] [2022-01-23T13:53:33.664Z] <<< [apiv2][status] GET https://api.github.com/repos/repository/actions/secrets/public-key 404
+[debug] [2022-01-23T13:53:33.665Z] <<< [apiv2][body] GET https://api.github.com/repos/repository/actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
+[debug] [2022-01-23T13:53:33.840Z] >>> [apiv2][query] GET https://api.github.com/repos/repository/actions/secrets/public-key type=owner
+[debug] [2022-01-23T13:53:33.868Z] >>> [apiv2][query] GET https://api.github.com/repos/divisionalfa/Ghost-ff/actions/secrets/public-key type=owner
+[debug] [2022-01-23T13:53:33.874Z] <<< [apiv2][status] GET https://api.github.com/repos/divisionalfa/Ghost-ff/actions/secrets/public-key 403
+[debug] [2022-01-23T13:53:33.874Z] <<< [apiv2][body] GET https://api.github.com/repos/divisionalfa/Ghost-ff/actions/secrets/public-key {"message":"Must have admin rights to Repository.","documentation_url":"https://docs.github.com/rest/reference/actions#get-a-repository-public-key"}
+[info] 
+[info] 
+[error] !  The provided authorization cannot be used with this repository. If this repository is in an organization, did you remember to grant access? 
+[info] 
+[info] i  Action required: Visit this URL to ensure access has been granted to the appropriate organization(s) for the Firebase CLI GitHub OAuth App: 
+[info] https://github.com/settings/connections/applications/89cf50f02ac6aaed3484
+[info] 
+[debug] [2022-01-23T13:53:33.982Z] >>> [apiv2][query] GET https://api.github.com/repos/divisionalfa/Ghost-ff/actions/secrets/public-key type=owner
+[debug] [2022-01-23T13:53:34.080Z] <<< [apiv2][status] GET https://api.github.com/repos/repository/actions/secrets/public-key 404
+[debug] [2022-01-23T13:53:34.081Z] <<< [apiv2][body] GET https://api.github.com/repos/repository/actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
+[debug] [2022-01-23T13:53:34.124Z] <<< [apiv2][status] GET https://api.github.com/repos/divisionalfa/Ghost-ff/actions/secrets/public-key 403
+[debug] [2022-01-23T13:53:34.124Z] <<< [apiv2][body] GET https://api.github.com/repos/divisionalfa/Ghost-ff/actions/secrets/public-key {"message":"Must have admin rights to Repository.","documentation_url":"https://docs.github.com/rest/reference/actions#get-a-repository-public-key"}
+[info] 
+[info] 
+[error] !  The provided authorization cannot be used with this repository. If this repository is in an organization, did you remember to grant access? 
+[info] 
+[info] i  Action required: Visit this URL to ensure access has been granted to the appropriate organization(s) for the Firebase CLI GitHub OAuth App: 
+[info] https://github.com/settings/connections/applications/89cf50f02ac6aaed3484
+[info] 
+[debug] [2022-01-23T13:53:34.229Z] <<< [apiv2][status] GET https://api.github.com/repos/divisionalfa/Ghost-ff/actions/secrets/public-key 403
+[debug] [2022-01-23T13:53:34.230Z] <<< [apiv2][body] GET https://api.github.com/repos/divisionalfa/Ghost-ff/actions/secrets/public-key {"message":"Must have admin rights to Repository.","documentation_url":"https://docs.github.com/rest/reference/actions#get-a-repository-public-key"}
+[info] 
+[info] 
+[error] !  The provided authorization cannot be used with this repository. If this repository is in an organization, did you remember to grant access? 
+[info] 
+[info] i  Action required: Visit this URL to ensure access has been granted to the appropriate organization(s) for the Firebase CLI GitHub OAuth App: 
+[info] https://github.com/settings/connections/applications/89cf50f02ac6aaed3484
+[info] 
+[debug] [2022-01-23T13:54:51.083Z] >>> [apiv2][query] GET https://api.github.com/repos/user/actions/secrets/public-key type=owner
+[debug] [2022-01-23T13:54:53.149Z] <<< [apiv2][status] GET https://api.github.com/repos/user/actions/secrets/public-key 404
+[debug] [2022-01-23T13:54:53.150Z] <<< [apiv2][body] GET https://api.github.com/repos/user/actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
+[debug] [2022-01-23T13:55:12.487Z] >>> [apiv2][query] GET https://api.github.com/repos/yes/actions/secrets/public-key type=owner
+[debug] [2022-01-23T13:55:12.772Z] <<< [apiv2][status] GET https://api.github.com/repos/yes/actions/secrets/public-key 404
+[debug] [2022-01-23T13:55:12.774Z] <<< [apiv2][body] GET https://api.github.com/repos/yes/actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
+[debug] [2022-01-23T13:55:14.044Z] >>> [apiv2][query] GET https://api.github.com/repos/y/actions/secrets/public-key type=owner
+[debug] [2022-01-23T13:55:14.264Z] <<< [apiv2][status] GET https://api.github.com/repos/y/actions/secrets/public-key 404
+[debug] [2022-01-23T13:55:14.265Z] <<< [apiv2][body] GET https://api.github.com/repos/y/actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
+[debug] [2022-01-23T13:55:14.493Z] >>> [apiv2][query] GET https://api.github.com/repos/y/actions/secrets/public-key type=owner
+[debug] [2022-01-23T13:55:14.682Z] >>> [apiv2][query] GET https://api.github.com/repos/divisionalfa/Ghost-ff/actions/secrets/public-key type=owner
+[debug] [2022-01-23T13:55:14.726Z] <<< [apiv2][status] GET https://api.github.com/repos/y/actions/secrets/public-key 404
+[debug] [2022-01-23T13:55:14.727Z] <<< [apiv2][body] GET https://api.github.com/repos/y/actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
+[debug] [2022-01-23T13:55:14.955Z] <<< [apiv2][status] GET https://api.github.com/repos/divisionalfa/Ghost-ff/actions/secrets/public-key 403
+[debug] [2022-01-23T13:55:14.956Z] <<< [apiv2][body] GET https://api.github.com/repos/divisionalfa/Ghost-ff/actions/secrets/public-key {"message":"Must have admin rights to Repository.","documentation_url":"https://docs.github.com/rest/reference/actions#get-a-repository-public-key"}
+[info] 
+[info] 
+[error] !  The provided authorization cannot be used with this repository. If this repository is in an organization, did you remember to grant access? 
+[info] 
+[info] i  Action required: Visit this URL to ensure access has been granted to the appropriate organization(s) for the Firebase CLI GitHub OAuth App: 
+[info] https://github.com/settings/connections/applications/89cf50f02ac6aaed3484
+[info] 
+[debug] [2022-01-23T13:55:17.956Z] >>> [apiv2][query] GET https://api.github.com/repos/ydivisionalfa/Ghost-ff/actions/secrets/public-key type=owner
+[debug] [2022-01-23T13:55:18.189Z] <<< [apiv2][status] GET https://api.github.com/repos/ydivisionalfa/Ghost-ff/actions/secrets/public-key 404
+[debug] [2022-01-23T13:55:18.189Z] <<< [apiv2][body] GET https://api.github.com/repos/ydivisionalfa/Ghost-ff/actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest/reference/actions#get-a-repository-public-key"}
+[debug] [2022-01-23T13:55:20.510Z] >>> [apiv2][query] GET https://api.github.com/repos/divisionalfa/Ghost-ff/actions/secrets/public-key type=owner
+[debug] [2022-01-23T13:55:20.785Z] <<< [apiv2][status] GET https://api.github.com/repos/divisionalfa/Ghost-ff/actions/secrets/public-key 403
+[debug] [2022-01-23T13:55:20.786Z] <<< [apiv2][body] GET https://api.github.com/repos/divisionalfa/Ghost-ff/actions/secrets/public-key {"message":"Must have admin rights to Repository.","documentation_url":"https://docs.github.com/rest/reference/actions#get-a-repository-public-key"}
+[info] 
+[info] 
+[error] !  The provided authorization cannot be used with this repository. If this repository is in an organization, did you remember to grant access? 
+[info] 
+[info] i  Action required: Visit this URL to ensure access has been granted to the appropriate organization(s) for the Firebase CLI GitHub OAuth App: 
+[info] https://github.com/settings/connections/applications/89cf50f02ac6aaed3484
+[info] 
+[debug] [2022-01-23T13:55:29.262Z] >>> [apiv2][query] GET https://api.github.com/repos/divisionalfa/Ghost-ff/actions/secrets/public-key type=owner
+[debug] [2022-01-23T13:55:29.520Z] <<< [apiv2][status] GET https://api.github.com/repos/divisionalfa/Ghost-ff/actions/secrets/public-key 403
+[debug] [2022-01-23T13:55:29.520Z] <<< [apiv2][body] GET https://api.github.com/repos/divisionalfa/Ghost-ff/actions/secrets/public-key {"message":"Must have admin rights to Repository.","documentation_url":"https://docs.github.com/rest/reference/actions#get-a-repository-public-key"}
+[info] 
+[info] 
+[error] !  The provided authorization cannot be used with this repository. If this repository is in an organization, did you remember to grant access? 
+[info] 
+[info] i  Action required: Visit this URL to ensure access has been granted to the appropriate organization(s) for the Firebase CLI GitHub OAuth App: 
+[info] https://github.com/settings/connections/applications/89cf50f02ac6aaed3484
+[info] 
+[debug] [2022-01-23T13:55:31.316Z] >>> [apiv2][query] GET https://api.github.com/repos/divisionalfa/Ghost-ff/actions/secrets/public-key type=owner
+[debug] [2022-01-23T13:55:31.541Z] <<< [apiv2][status] GET https://api.github.com/repos/divisionalfa/Ghost-ff/actions/secrets/public-key 403
+[debug] [2022-01-23T13:55:31.541Z] <<< [apiv2][body] GET https://api.github.com/repos/divisionalfa/Ghost-ff/actions/secrets/public-key {"message":"Must have admin rights to Repository.","documentation_url":"https://docs.github.com/rest/reference/actions#get-a-repository-public-key"}
+[info] 
+[info] 
+[error] !  The provided authorization cannot be used with this repository. If this repository is in an organization, did you remember to grant access? 
+[info] 
+[info] i  Action required: Visit this URL to ensure access has been granted to the appropriate organization(s) for the Firebase CLI GitHub OAuth App: 
+[info] https://github.com/settings/connections/applications/89cf50f02ac6aaed3484
+[info] 
